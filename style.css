@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', Times new Roman;
+}
+body{
+	background-color: #f8f8f8;
+}
+.box-formulir {
+	width: 50%;
+	margin: 100px auto;
+}
+.box {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	padding: 10px;
+	box-sizing: 10px;
+	margin: 5px 0 25px;
+}
+.table-form{
+	width: 100%;
+}
+.table-form tr td:nth-child(1) {
+	width: 30%;
+}
+.input-control{
+	padding: 5px 10px;
+	font-size: 16px;
+	margin: 5px 0;
+}
+.btn-daftar{
+	padding: 10px 17px;
+	background-color: #33C7FF;
+	color: #fff;
+	border: none;
+	font-size: 16px;
+}
+.btn-daftar:hover {
+	cursor: pointer;
+	background-color: #127093;
+}
+.btn-cetak{
+    display: inline-block;
+    padding: 10px 17px;
+    color: #fff;
+    background-color: red;
+    margin-top: 5px;
+}
+
+.table-data {
+    width: 100%;
+    margin-top: 10px;
+}
+.table-data tr {
+    height: 35px;
+}
+.table-data tr td: :nth-child(1) {
+    widht:30%;
+}
+.main-login {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.box-login {
+    width: 300px;
+    min-height: 200px;
+}
+.box-login h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btn-login {
+    padding: 7px 20px;
+    background-color: #0E9ADB;
+    color: #fff;
+    border:none;
+    font-size: 16px 
+}
+.btn-login:hover{
+    cursor: pointer;
+    background-color: blue;
+}
